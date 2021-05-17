@@ -2,8 +2,8 @@
 #Software requirements
 # visual studio 2010
 #ms access
-#Without these software project not run.
+#Without this software project not run.
 
 
-#username :swati-thakur
+#username :swati thakur
 #password:scvb2010
