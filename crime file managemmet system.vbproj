@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FE2ACA7-8A52-4F7B-97CE-670001C6F6F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>crime_file_managemmet_system.My.MyApplication</StartupObject>
+    <RootNamespace>crime_file_managemmet_system</RootNamespace>
+    <AssemblyName>crime file managemmet system</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>crime file managemmet system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>crime file managemmet system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accident_Complaint.Designer.vb">
+      <DependentUpon>Accident_Complaint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accident_Complaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="container_form.Designer.vb">
+      <DependentUpon>container_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="container_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Criminals Records.Designer.vb">
+      <DependentUpon>Criminals Records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Criminals Records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_fir.Designer.vb">
+      <DependentUpon>Delete_fir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_fir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finger_print_matcher.Designer.vb">
+      <DependentUpon>Finger_print_matcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Finger_print_matcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Missing_Person.Designer.vb">
+      <DependentUpon>Missing_Person.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Missing_Person.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="National_crime_record_management_systemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>National_crime_record_management_systemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="National_crime_record_management_systemDataSet.vb">
+      <DependentUpon>National_crime_record_management_systemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Post_Mortem_Report.Designer.vb">
+      <DependentUpon>Post_Mortem_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Post_Mortem_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_FIR_details.Designer.vb">
+      <DependentUpon>Register_FIR_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register_FIR_details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robbery_Complaint.Designer.vb">
+      <DependentUpon>Robbery_Complaint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Robbery_Complaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_accident_compliant.Designer.vb">
+      <DependentUpon>update_accident_compliant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_accident_compliant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_fir.Designer.vb">
+      <DependentUpon>update_fir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_fir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_missing_person.Designer.vb">
+      <DependentUpon>update_missing_person.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_missing_person.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_robbery_compliant.Designer.vb">
+      <DependentUpon>Update_robbery_compliant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_robbery_compliant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view post mortem reports.Designer.vb">
+      <DependentUpon>view post mortem reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view post mortem reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accident_Complaint.resx">
+      <DependentUpon>Accident_Complaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="container_form.resx">
+      <DependentUpon>container_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Criminals Records.resx">
+      <DependentUpon>Criminals Records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_fir.resx">
+      <DependentUpon>Delete_fir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finger_print_matcher.resx">
+      <DependentUpon>Finger_print_matcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Missing_Person.resx">
+      <DependentUpon>Missing_Person.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Post_Mortem_Report.resx">
+      <DependentUpon>Post_Mortem_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_FIR_details.resx">
+      <DependentUpon>Register_FIR_details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robbery_Complaint.resx">
+      <DependentUpon>Robbery_Complaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_accident_compliant.resx">
+      <DependentUpon>update_accident_compliant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_fir.resx">
+      <DependentUpon>update_fir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_missing_person.resx">
+      <DependentUpon>update_missing_person.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_robbery_compliant.resx">
+      <DependentUpon>Update_robbery_compliant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view post mortem reports.resx">
+      <DependentUpon>view post mortem reports.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="National_crime_record_management_systemDataSet.xsc">
+      <DependentUpon>National_crime_record_management_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="National_crime_record_management_systemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>National_crime_record_management_systemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="National_crime_record_management_systemDataSet.xss">
+      <DependentUpon>National_crime_record_management_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2821%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2822%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2823%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2824%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %2825%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thief-1825713__340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waterricky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wet-3149997__340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-male-1871394__480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xcybercrime880px.jpg.pagespeed.ic.COHZVf8tNX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zombie-764269__340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="National_crime_record_management_system.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
